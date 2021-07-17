@@ -1,15 +1,18 @@
 <html>
   <head>
-    <title>Reckue Language</title>
+    <title>Reckue Lang</title>
   </head>
   <body>
     <div class="header">
       <div class="wrapper">
+        <a href="#">Courses</a>
+        <a href="#">Prices</a>
+        <a href="#">About</a>
       </div>
     </div>
     <div class="content">
       <div class="wrapper">
-        Hello, Reckue Language!
+        <h1>Welcome to<br> Reckue Lang!</h1>
       </div>
     </div>
     <div class="footer">
@@ -20,22 +23,55 @@
   
   <style>
     html, body {
+      font-family: Arial, Helvetica, sans-serif;
       margin: 0;
       padding: 0;
     }
+    h1 {
+      padding: 50px 0 0 50px;
+      font-size: 48px;
+      color: #fff;
+    }
     .header {
        width: 100%;
-       height: 50px;
-       background: green;
+       height: 60px;
+       background: rgb(153, 211, 153);
     }
     .header .wrapper {
+      margin: 0 auto;
+      text-align: right;
       width: 1000px;
-      height: 50px;
+      height: 60px;
+    }
+    .header .wrapper a {
+      font-size: 24px;
+      line-height: 60px;
+      padding: 10px 16px;
+      font-weight: 800;
+      text-decoration: none;
+      color: rgb(22, 78, 32);
+    }
+    .header .wrapper a:hover {
+      line-height: 50px;
+      text-decoration: none;
+      color: rgb(39, 139, 58);
     }
     .content {
+      margin: 0 auto;
       width: 100%;
-      min-height: 500px;
-      background: red;
+      min-height: 1000px;
+      background: url(https://cdn.discordapp.com/attachments/662116061768056833/866053584814080010/depositphotos_184797372-stock-photo-creative-man-showing-thumbs-up.png) no-repeat;
+      background-size: 100%;
+    }
+    .content .wrapper {
+      margin: 0 auto;
+      width: 1000px;
+      min-height: 1000px;
+      filter: blur(3px);
+    }
+    .content h1 {
+      font-weight: 800;
+      font-size: 44px;
     }
     .footer {
       width: 100%;
@@ -43,6 +79,7 @@
       background: orange;
     }
     .footer .wrapper {
+      margin: 0 auto;
       width: 1000px;
       height: 200px;
     }
